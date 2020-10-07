@@ -13,16 +13,37 @@
 </head>
 
 <body>
-    <div class="container-sm text-center">
-        <!--navbar-->
-        <div>
-            <nav class="navbar sticky-top navbar-light bg-light container" id="nav">
-                <a class="navbar-brand" id="font" href="#home"> Home </a>
-                <a class="navbar-brand" id="font" href="#projects"> Projects </a>
-                <a class="navbar-brand" id="font" href="#resume"> Resume </a>
-            </nav>
-        </div>
 
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" id="font" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" id="font" href="#projects">Projects</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" id="font" href="#resume">Resume</a>
+                </li>
+            </ul>
+            <div class="form-inline my-2 my-lg-0">
+                <a href='https://www.github.com/Eric-Wilder' target="_blank"><button class="btn my-2 my-sm-0" type="submit"><i class="fa fa-github" style="font-size:24px;color:honeydew"></i></button></a>
+                <a href='https://www.linkedin.com/in/eric-wilder-a863711b2' target="_blank"><button class="btn my-2 my-sm-0"><i class="fa fa-linkedin-square" style="font-size:24px;color:honeydew"></i></button></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-lg text-center">
         <!--home-->
         <section>
             <div id="home"></div>

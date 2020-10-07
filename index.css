@@ -1,5 +1,5 @@
-.mainColor {
-    background: rgb(32, 102, 207);
+.main-color {
+    background: rgb(142, 179, 235);
 }
 
 #nav-b {
@@ -7,7 +7,7 @@
     padding-bottom: 15px;
 }
 
-section {
+body {
     padding-top: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
@@ -47,9 +47,13 @@ section {
   }
 
   #nav {
-    position: fixed;
-    
-    
-    
-    
+    position: fixed !important;
+  }
+
+  #nav-w {
+      width: 100%;
+  }
+
+  #btn-space {
+      padding-right: 10px;
   }

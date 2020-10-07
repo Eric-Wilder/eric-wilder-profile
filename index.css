@@ -1,0 +1,55 @@
+.mainColor {
+    background: rgb(32, 102, 207);
+}
+
+#nav-b {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+section {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+  }
+
+#space-home {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#space-projects {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#space-resume {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#font {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #font-size {
+      font-size: x-small;
+  }
+
+  #space-footer {
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  html {
+      scroll-behavior: smooth;
+  }
+
+  #nav {
+    position: fixed;
+    
+    
+    
+    
+  }
